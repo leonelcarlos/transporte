@@ -264,10 +264,10 @@ background: #FFF;
 
 #hero-banner{
   overflow: hidden;
-  height: 700px;
+  
   background: url('../images/banner/bannerejemplo.png');
   background-size:cover;
-  color:#2b2929;
+
 }
 #hero-banner.item {
   height: 558px;
@@ -287,10 +287,11 @@ background: #FFF;
   margin-top: 299px;
   font-size: 39px;
   line-height: 49px; 
-
+  margin-left: 20px;
   text-align: right;  
 }
 #hero-banner h2 b{
+
 color:#F9690E;
 }
 #hero-banner p { 
@@ -333,6 +334,68 @@ color: #FFF;
 #hero-text .btn {
   margin-top: 40px;
 }
+
+
+#sliderr {
+  margin-top: -40px;
+  overflow: hidden;
+}
+#sliderr figure {
+  position: relative;
+  width: 500%;
+  margin: 0;
+  left: 0;
+  animation: 20s sliderr infinite;
+}
+#sliderr figure img {
+  width: 20%;
+  float: left;
+}
+
+.texto-encima{
+position: absolute;
+top: 10px;
+left: 10px;
+}
+.centrado{
+font-size: 39px;
+position: absolute;
+top: 50%;
+left: 50%;
+transform: translate(-50%, -50%);
+}
+
+@keyframes sliderr {
+  0% {
+      left: 0;
+  }
+  20% {
+      left: 0;
+  }
+  25% {
+      left: -100%;
+  }
+  45% {
+      left: -100%;
+  }
+  50% {
+      left: -200%;
+  }
+  70% {
+      left: -200%;
+  }
+  75% {
+      left: -300%;
+  }
+  95% {
+      left: -300%;
+  }
+  100% {
+      left: -400%;
+  }
+}
+      
+
 #cta2 {
   background: #45b1da;
   color: #fff;
