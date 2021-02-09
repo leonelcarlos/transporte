@@ -55,6 +55,7 @@ hr {
 }
 .section-header p{
 text-align:center;
+font-size: 20px;
 }
 .section-header .section-title {
   font-size: 44px;
@@ -916,7 +917,7 @@ color: #FFFFFF;
 margin-bottom: 20px;
 font-style: normal;
 line-height: 27px;
-font-size: 15px;
+font-size: 20px;
 }
 .contact-info .form-control { 
 padding: 6px 12px;
