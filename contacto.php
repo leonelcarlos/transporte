@@ -27,8 +27,8 @@ if($_POST) {
     /******** colocar aqui el correo electronico de la empresa********/
 
     //$recipient = "correoDeLaEmpresa@gmail.com";
-    
-    $recipient = "dante.villazante07@gmail.com";
+    //colocar el correo de la empresa.. 
+    $recipient = "t.fuzion02@gmail.com";
     
     
     $headers  = 'MIME-Version: 1.0' . "\r\n"
