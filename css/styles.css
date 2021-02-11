@@ -59,7 +59,7 @@ font-size: 20px;
 }
 .section-header .section-title {
   font-size: 44px;
-  color: #F9690E;
+  color: #21c01b;
   position: relative;
   padding-bottom: 20px;
   margin: 0 0 20px;  
@@ -75,7 +75,7 @@ font-size: 20px;
   bottom: -5px;
   right: 0;
   width: 30px;
-  background: rgb(249, 105, 14);
+  background: rgb(33, 192, 27);
   border-radius: 50%;
   margin: 0 auto;
   left: 0;
@@ -88,11 +88,12 @@ font-size: 20px;
   border-radius: 0;
 }
 .btn.btn-primary {
-  background: #CD4F00;
+  background: #21c01b;
 }
 .btn.btn-primary:hover,
 .btn.btn-primary:focus {
-  background: #FF8A41;
+  background: #4207e4;
+  border: 1px solid #ffffff;
 }
 .listarrow{
 padding:0px;
@@ -104,7 +105,7 @@ padding:0px;
 }
 .listarrow li i{
 padding-right:15px;
-color: #F9690E;
+color: #21c01b;
 }
 .column-title {
   margin-top: 0;
@@ -173,7 +174,7 @@ text-transform: uppercase;
 background: #FFFFFF;
 }
 #main-nav.navbar-default .navbar-nav > li.active > a, #main-nav.navbar-default .navbar-nav > li.open > a, #main-nav.navbar-default .navbar-nav > li:hover > a {
-background: rgb(249, 105, 14);
+background: rgb(33, 192, 27);
 color: #FFFFFF;
 }
 .navbar.navbar-default {
@@ -189,7 +190,7 @@ color: #FFFFFF;
   padding: 10px 15px 1px;
 }
 .navbar-default .navbar-nav>li>a:hover, .navbar-default .navbar-nav>li>a:focus{
-color: #F8680D;
+color: #21c01b;
  
 background: transparent;
 }
@@ -223,7 +224,7 @@ background: #FFF;
   #main-nav.navbar-default .navbar-nav > li:hover > a {
     background: transparent; 
 	
-    color: #F9690E;
+    color: #21c01b;
   
 }
   #main-nav.navbar-default .dropdown-menu {
@@ -433,7 +434,7 @@ transform: translate(-50%, -50%);
   position: relative;
   background: #FFFFFF;
   border-radius: 0 0 20px 0;
-  border: #F9690B 2px solid;
+  border: #4207e4 2px solid;
 }
 .media.service-box .pull-left {
   margin-right: 20px;
@@ -455,7 +456,7 @@ transform: translate(-50%, -50%);
   left: -13px;
   top: -15px;
   vertical-align: middle;
-  background: rgb(249, 105, 14);
+  background: rgb(66, 7, 228);
   border-radius: 10% 20%;
   height: 80px;
   border: 6px #fff solid;
@@ -494,7 +495,7 @@ padding-top: 10px;
 }
 #portfolio .portfolio-filter > li a:hover,
 #portfolio .portfolio-filter > li a.active {
-  background: #F9690E;
+  background: #21c01b;
   color: #FFFFFF; 
 } 
 #portfolio .portfolio-items {
@@ -512,7 +513,7 @@ padding-top: 10px;
 }
 #portfolio .portfolio-item .portfolio-item-inner {
   position: relative;
-  border-bottom: 4px solid #F9690E;
+  border-bottom: 4px solid #4207e4;
 }
 #portfolio .portfolio-item .portfolio-item-inner .portfolio-info {
   opacity: 0;
@@ -539,7 +540,7 @@ padding-top: 10px;
   height: 60px;
   line-height: 36px;
   text-align: center;
-  color: #F9690E;
+  color: #21c01b;
   display:block;
   text-align: center;
 
@@ -678,7 +679,7 @@ color:#fff;
   border-top: 2px solid #fff;
 } 
 #our-team .team-member:hover .social-icons > li > a {
-  color: #F9690E;
+  color: #21c01b;
 }
  
 #our-team .social-icons {
@@ -723,7 +724,7 @@ color:#fff;
 	font-size: 14px;
 	background: rgba(0, 0, 0, 0.39);
 
-	color: #919191;
+	color: #ffffff;
 line-height: 22px;
 
 	border-radius: 20px;
@@ -746,7 +747,7 @@ line-height: 22px;
 .single-testimonial h5{
 	padding: 8px 0 0px;
 	font-size: 16px;
-	color: #F9690E;
+	color: #4207e4;
 }
  
 .progress {
@@ -826,7 +827,7 @@ margin: 0;
   height: 140px;
   font-size: 24px;
   line-height: 140px;
-  border: 4px solid #F9690E;
+  border: 4px solid #4207e4;
   border-radius: 100px;
   margin-bottom: 20px;
 }
@@ -909,9 +910,10 @@ color: #FFFFFF;
 }
 /*Contact*/
  .contact-info{
- background: #F9690E;
+ background: #4207e4;
  padding: 50px;
  margin-bottom: 50px;
+ color: rgb(255, 255, 255);
 }
 .contact-info address {
 margin-bottom: 20px;
